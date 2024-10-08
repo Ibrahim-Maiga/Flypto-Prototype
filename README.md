@@ -19,5 +19,8 @@ Frontend-nextjs-crypto-dashboard: The frontend application built with Next.js, p
 
 Helm-charts: Kubernetes Helm charts for deploying the Flypto application and its components in a cloud environment.
 
+
+
+
 Collaborators
 - Andy Tang - GitHub: andytang-dev
