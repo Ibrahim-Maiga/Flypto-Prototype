@@ -1,4 +1,4 @@
-#Flypto
+Flypto
 
 Overview
 Flypto is an innovative automated cryptocurrency trading platform designed to leverage advanced machine learning models and real-time sentiment analysis. The platform aims to optimize profitability by eliminating emotional biases and continuously adapting to new data, providing a competitive edge in the volatile cryptocurrency market.
