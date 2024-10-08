@@ -1,0 +1,9 @@
+{
+  "site": { "title": "Andy Tang" },
+  "contactFromEmail": {
+    "from": "\"Andy Tang ✉️\" <do-not-reply@andytang.dev>",
+    "bcc": "findme@andytang.dev",
+    "replyTo": "findme@andytang.dev",
+    "subject": "Thank you for getting in touch with me!"
+  }
+}

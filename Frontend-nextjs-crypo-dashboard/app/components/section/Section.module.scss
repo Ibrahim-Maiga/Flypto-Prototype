@@ -1,0 +1,15 @@
+.outline {
+  /* min-height: 15rem; */
+
+  &:nth-of-type(even) {
+    background-color: #ffffff;
+    border-radius: 5rem;
+  }
+
+  &:nth-of-type(2) {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+  }
+}

@@ -1,0 +1,24 @@
+repositories:
+- name: andytang
+  url: https://andytang-dev.github.io/helm-charts
+
+releases:
+- name: aasd4016
+  namespace: mldemo
+  chart: andytang/application
+  version: 0.1.6
+  values:
+  - deployment:
+      name: nextjs-crypo-dashboard
+      imageName: ghcr.io/andytang-dev/andytang-dev/nextjs-crypo-dashboard
+      imageTag: latest
+      replicas: 1
+      containerPort: 3000
+      imagePullSecrets:
+      - ghcr-access-token
+      envFrom:
+      - secretRef:
+          name: nextjs-crypo-dashboard-secret
+    ingress:
+      hostname: aasd4016.ml-demo.lol
+      tlsSecretName: wildcard-ml-demo-lol-cert

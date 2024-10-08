@@ -1,0 +1,22 @@
+repositories:
+- name: andytang
+  url: https://andytang-dev.github.io/helm-charts
+
+releases:
+- name: aasd4016-predict
+  namespace: mldemo
+  chart: andytang/application
+  version: 0.1.6
+  values:
+  - deployment:
+      name: flask-crypto-predict
+      imageName: ghcr.io/andytang-dev/andytang-dev/flask-crypto-predict
+      imageTag: latest
+      replicas: 1
+      containerPort: 5000
+      imagePullSecrets:
+      - ghcr-access-token
+    ingress:
+      hostname: aasd4016.ml-demo.lol
+      tlsSecretName: wildcard-ml-demo-lol-cert
+      path: /model

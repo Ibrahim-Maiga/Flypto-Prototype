@@ -1,0 +1,4 @@
+bucket         = "andytang-prod-aws-s3-tf-state"
+key            = "lambda-fetch-crypto-price.terraform.tfstate"
+dynamodb_table = "andytang-prod-aws-dynamo-tf-state-lock"
+encrypt        = true

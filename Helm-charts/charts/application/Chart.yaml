@@ -1,0 +1,6 @@
+apiVersion: v2
+name: application
+description: A Helm chart for deploying an application
+type: application
+version: 0.1.7
+appVersion: 1.30.3

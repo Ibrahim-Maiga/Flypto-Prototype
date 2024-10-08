@@ -1,0 +1,7 @@
+apiVersion: v2
+name: certificate
+description: A Helm chart for deploying cert-manager certificate
+type: application
+version: 0.1.17
+appVersion: 1.14.5
+icon: https://raw.githubusercontent.com/cert-manager/cert-manager/master/logo/logo.svg

@@ -1,0 +1,13 @@
+.nav {
+  height: 4rem;
+
+  .link {
+    padding: 0 1rem;
+    transition: all 1s ease;
+
+    &.active {
+      color: #ff930f;
+      text-decoration: underline;
+    }
+  }
+}

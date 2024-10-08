@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  /* background-color: #f6f5f4; */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+h2 {
+  color: #222222;
+  margin: 1rem;
+  font-size: 2rem;
+  font-weight: 400;
+}

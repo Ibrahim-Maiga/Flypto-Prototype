@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.deployment.name }}
+  namespace: {{ .Release.Namespace}}
+spec:
+  replicas: {{ .Values.deployment.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ .Values.deployment.name }}
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: {{ .Values.deployment.maxSurge }}
+      maxUnavailable: {{ .Values.deployment.maxUnavailable }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.deployment.name }}
+    spec:
+      containers:
+        - name: {{ .Values.deployment.name }}
+          image: "{{ .Values.deployment.imageName }}:{{ .Values.deployment.imageTag }}"
+          imagePullPolicy: {{ .Values.deployment.imagePullPolicy }}
+          resources:
+            {{- toYaml .Values.deployment.resources | nindent 12 }}
+          ports:
+            - name: http
+              containerPort: {{ .Values.deployment.containerPort }}
+          {{- with .Values.deployment.envFrom }}
+          envFrom:
+            {{- toYaml . | nindent 12}}
+          {{- end }}
+      imagePullSecrets:
+        {{- if .Values.deployment.imagePullSecrets }}
+        {{- range .Values.deployment.imagePullSecrets }}
+        - name: {{ . }}
+        {{- end }}
+        {{- end }}
+      restartPolicy: {{ .Values.deployment.restartPolicy }}
