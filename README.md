@@ -1,15 +1,15 @@
-Flypto
+### Overview
 
-Overview
-Flypto is an innovative automated cryptocurrency trading platform designed to leverage advanced machine learning models and real-time sentiment analysis. The platform aims to optimize profitability by eliminating emotional biases and continuously adapting to new data, providing a competitive edge in the volatile cryptocurrency market.
+Flypto Lite is a lightweight version of Flypto that is currently in development. Flypto is an innovative automated cryptocurrency trading platform that utilizes advanced machine learning models and real-time sentiment analysis. The platform's goal is to enhance profitability by removing emotional biases and constantly adjusting to new data, offering a competitive advantage in the volatile cryptocurrency market.
 
-Features
+### Features
 AI-Powered Trading: Flypto uses sophisticated algorithms to analyze market trends and execute trades based on predictive models.
 Real-Time Sentiment Analysis: Integrates sentiment analysis from social media, news, and other sources to gauge market sentiment and make informed trading decisions.
-Dynamic Risk Management: Implements automated risk management strategies to protect against market volatility.
 User-Friendly Interface: Designed to be accessible for both novice and experienced traders with customizable trading strategies.
-Repository Structure
-The Flypto repository is organized into the following directories:
+
+### Repository Structure
+
+The Flypto Lite repository is organized into the following directories:
 
 AWS-lambda-fetch-crypto-price: Contains AWS Lambda functions for fetching real-time cryptocurrency prices from various exchanges.
 
