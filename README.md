@@ -1,6 +1,6 @@
 ### Overview
 
-Flypto Lite is a lightweight version of Flypto that is currently in development. Flypto is an innovative automated cryptocurrency trading platform that utilizes advanced machine learning models and real-time sentiment analysis. The platform's goal is to enhance profitability by removing emotional biases and constantly adjusting to new data, offering a competitive advantage in the volatile cryptocurrency market.
+Flypto Lite is a lightweight version of Flypto that is currently in development. Flypto is a cloud-based automated cryptocurrency trading platform that utilizes advanced machine learning models and real-time sentiment analysis. The platform's goal is to enhance profitability by removing emotional biases and constantly adjusting to new data, offering a competitive advantage in the volatile cryptocurrency market.
 
 ### Features
 AI-Powered Trading: Flypto uses sophisticated algorithms to analyze market trends and execute trades based on predictive models.
