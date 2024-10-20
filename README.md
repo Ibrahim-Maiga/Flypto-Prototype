@@ -11,11 +11,11 @@ User-Friendly Interface: Designed to be accessible for both novice and experienc
 
 The Flypto Lite repository is organized into the following directories:
 
-AWS-lambda-fetch-crypto-price: Contains AWS Lambda functions for fetching real-time cryptocurrency prices from various exchanges.
+AWS-lambda-fetch-crypto-price: Contains AWS Lambda functions for fetching real-time cryptocurrency prices from Binance.
 
-Backend-flask-crypto-predict: The backend service built with Flask that serves the AI prediction models and handles API requests.
+Backend-flask-crypto-predict: The backend service built with Flask serves the AI prediction model and handles API requests.
 
-Frontend-nextjs-crypto-dashboard: The frontend application built with Next.js, providing an interactive dashboard for users to monitor their investments and trading activity.
+Frontend-nextjs-crypto-dashboard: The frontend application built with Next.js, provides an interactive dashboard for users to monitor their investments and trading activity.
 
 Helm-charts: Kubernetes Helm charts for deploying the Flypto application and its components in a cloud environment.
 
