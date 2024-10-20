@@ -11,7 +11,7 @@ User-Friendly Interface: Designed to be accessible for both novice and experienc
 
 The Flypto Lite repository is organized into the following directories:
 
-" # AWS-lambda-fetch-crypto-price ": Contains AWS Lambda functions for fetching real-time cryptocurrency prices from Binance.
+#### AWS-lambda-fetch-crypto-price: Contains AWS Lambda functions for fetching real-time cryptocurrency prices from Binance.
 
 Backend-flask-crypto-predict: The backend service built with Flask serves the AI prediction model and handles API requests.
 
