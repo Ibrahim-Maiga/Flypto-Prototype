@@ -23,4 +23,6 @@ Helm-charts: Kubernetes Helm charts for deploying the Flypto application and its
 ![image](https://github.com/user-attachments/assets/5b1f8252-5f87-4f74-a96b-86911e9838d5)
 
 
-Collaborator: Andy Tang (GitHub: andytang-dev)
+
+
+Collaborator: Andy Tang (https://github.com/andytang-dev)
