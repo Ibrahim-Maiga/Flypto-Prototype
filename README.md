@@ -4,7 +4,9 @@ Flypto Prototype is a lightweight version of Flypto that is currently in develop
 
 ## Features
 ***AI-Powered Trading***: Flypto uses sophisticated algorithms to analyze market trends and execute trades based on predictive models and crypto market news.
+
 ***Real-Time Sentiment Analysis***: Integrates sentiment analysis from social media, news, and other sources to gauge market sentiment and make informed trading decisions.
+
 ***User-Friendly Interface***: Designed to be accessible for both novice and experienced traders with customizable trading strategies.
 
 ## Repository Structure
