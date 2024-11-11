@@ -32,4 +32,4 @@ The Flypto Lite repository is organized into the following directories:
 
 
 
-Collaborator: Andy Tang (https://github.com/andytang-dev)
+Contributor: Andy Tang (https://github.com/andytang-dev)
