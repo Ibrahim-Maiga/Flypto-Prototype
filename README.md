@@ -2,8 +2,6 @@
 
 Flypto Prototype is a preliminary version of Flypto. An alpha prototype is currently in development. Flypto is a cloud-based automated cryptocurrency trading platform integrating advanced machine learning and Deep Learning models. The platform aims to enhance profitability by removing emotional biases and constantly adjusting to new data, offering a competitive advantage in the volatile cryptocurrency market.
 
-https://aasd4016.ml-demo.lol/
-
 
 ![image](https://github.com/user-attachments/assets/5b1f8252-5f87-4f74-a96b-86911e9838d5)
 
