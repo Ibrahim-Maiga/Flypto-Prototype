@@ -23,7 +23,7 @@ The Flypto Lite repository is organized into the following directories:
 
 - #### Frontend-nextjs-crypto-dashboard: The frontend application built with Next.js, provides an interactive dashboard for users to monitor their investments and trading activity.
 
-- #### Helm-charts: Kubernetes Helm charts for deploying the Flypto application and its components in a cloud environment.
+
 
 
 
