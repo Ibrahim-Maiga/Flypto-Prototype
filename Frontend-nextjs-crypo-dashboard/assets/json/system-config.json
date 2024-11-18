@@ -1,9 +1,9 @@
 {
-  "site": { "title": "Andy Tang" },
+  "site": { "title": "Ibrahim Maïga" },
   "contactFromEmail": {
-    "from": "\"Andy Tang ✉️\" <do-not-reply@andytang.dev>",
-    "bcc": "findme@andytang.dev",
-    "replyTo": "findme@andytang.dev",
+    "from": "\"Ibrahim Maïga ✉️\" <noreply@ibrahimmaiga.com>",
+    "bcc": "contactme@ibrahimmaiga.com",
+    "replyTo": "contactme@ibrahimmaiga.com",
     "subject": "Thank you for getting in touch with me!"
   }
 }
