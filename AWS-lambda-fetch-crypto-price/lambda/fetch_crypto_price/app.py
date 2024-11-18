@@ -26,7 +26,7 @@ cryptos = {
 # Initialize DynamoDB client
 dynamodb = boto3.resource("dynamodb")
 table = dynamodb.Table(
-    os.getenv("DYNAMODB_TABLE", "andytang-prod-aws-lambda-crypto-price")
+    os.getenv("DYNAMODB_TABLE", "imaig-prod-aws-lambda-crypto-price")
 )
 
 # Define the base symbols you want to fetch (without the 'USDT' suffix)
