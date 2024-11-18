@@ -1,6 +1,6 @@
 repositories:
-- name: imaig
-  url: https://imaig-dev.github.io/helm-charts
+- name: Ibrahim Maïga
+  url: https://Ibrahim-Maiga.github.io/helm-charts
 
 releases:
 - name: aasd4016-predict
@@ -10,7 +10,7 @@ releases:
   values:
   - deployment:
       name: flask-crypto-predict
-      imageName: ghcr.io/imaig-dev/imaig-dev/flask-crypto-predict
+      imageName: ghcr.io/Ibrahim-Maiga/Ibrahim-Maiga/flask-crypto-predict
       imageTag: latest
       replicas: 1
       containerPort: 5000
