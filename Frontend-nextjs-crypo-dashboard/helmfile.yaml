@@ -1,16 +1,16 @@
 repositories:
-- name: andytang
-  url: https://andytang-dev.github.io/helm-charts
+- name: imaig
+  url: https://imaig-dev.github.io/helm-charts
 
 releases:
 - name: aasd4016
   namespace: mldemo
-  chart: andytang/application
+  chart: imaig/application
   version: 0.1.6
   values:
   - deployment:
       name: nextjs-crypo-dashboard
-      imageName: ghcr.io/andytang-dev/andytang-dev/nextjs-crypo-dashboard
+      imageName: ghcr.io/imaig-dev/imaig-dev/nextjs-crypo-dashboard
       imageTag: latest
       replicas: 1
       containerPort: 3000
